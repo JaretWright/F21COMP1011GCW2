@@ -51,7 +51,7 @@ public class CreateCameraViewController implements Initializable {
             String model = this.modelTextField.getText();
             ArrayList<String> lenses = new ArrayList<>();
             lenses.addAll(Arrays.asList("70-200 F2.8", "15-50 F1.8", "100-400 F4.5"));
-            int mp = this.mpSpinner.getValue();
+            int mp = 34;
             double price = Double.parseDouble(this.priceTextField.getText());
             boolean digital = this.digitalCheckBox.isSelected();
             boolean mirrorless = this.mirrorlessCheckBox.isSelected();
